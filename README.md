@@ -1,5 +1,5 @@
 # maclincomms - (macOS & Linux Communications)
-
+### Terminal based chat system developed entirely in Rust
 ### Chat with your fellow macOS & Linux users in terminal
 
 - **Open to forks, collabs and PRs**
