@@ -1,7 +1,8 @@
 # maclincomms - (macOS & Linux Communications)
 - ### Chat with your fellow macOS & Linux users in terminal
 - ### Developed entirely in Rust
-   **Open to forks, collabs and PRs**
+
+**Open to forks, collabs and PRs**
 
 
 ## TODOS
