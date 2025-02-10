@@ -16,6 +16,7 @@
 
 1. ### Homebrew
 **You need to have homebrew package manager to install maclincomms**.
+
 [**Homebrew Installation Guide**](https://brew.sh)
 
 2. ### Installing maclincomms with `brew`
@@ -33,7 +34,9 @@ maclincomms
 ```
 ## Chat with your fellow macOS & Linux users
 **Now just register with a Unique username and password, and get connected to the world!**
+
 <img width="947" alt="Screenshot 2024-11-23 at 2 10 47 PM" src="https://github.com/user-attachments/assets/1da9f345-8991-4923-ae84-08fcca646222">
+
 ***DO NOT SHARE ANY SENSITIVE INFORMATION ON PUBLIC CHAT***
 ## Exiting maclincomms
 **You can exit by simply typing `exit`**
