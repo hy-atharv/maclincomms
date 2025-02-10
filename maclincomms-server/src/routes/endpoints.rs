@@ -154,7 +154,7 @@ pub async fn login(
 }
 
 
-// Shared type for managing active WebSocket sessions
+// Shared Arc type for managing active WebSocket sessions in Public Chat
 type SharedState = Arc<Mutex<HashMap<Uuid, Session>>>;
 
 

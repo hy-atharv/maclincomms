@@ -2,20 +2,20 @@ use jsonwebtoken::{encode, EncodingKey, Header};
 
 use crate::models::jwt_models::UserClaims;
 
-use std::env;
-
+use crate::secret_store::get_secret;
 
 pub fn encode_user_token(claims: UserClaims) -> String {
-    dotenvy::dotenv();
-    let secret = match env::var("TOKEN_SECRET"){
-        Ok(sec) => sec,
-        Err(err) => "".to_owned()
+    
+
+    let server_secret = match get_secret("TOKEN_SECRET"){
+        Some(token) => token,
+        None => "".to_owned()
     };
     
     let token: String = encode(
 	&Header::default(),
 	&claims,
-	&EncodingKey::from_secret(secret.as_str().as_ref()),
+	&EncodingKey::from_secret(server_secret.as_str().as_ref()),
     ).unwrap();
 
     return token;

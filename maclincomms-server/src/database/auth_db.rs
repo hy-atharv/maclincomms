@@ -2,24 +2,23 @@
 use actix_web::web::Json;
 use reqwest::{header::{HeaderMap, AUTHORIZATION}, Client};
 
-use std::env;
+use crate::secret_store::get_secret;
 
 use crate::models::user_auth::User_Auth_Table;
 
 pub async fn get_auth_data(username: &str) -> Result< Vec<User_Auth_Table>, reqwest::Error > {
 
     
-    dotenvy::dotenv();
-
-    let url = match env::var("SUPABASE_URL"){
-        Ok(url) => url,
-        Err(err) => "".to_owned()
+    
+    let url = match get_secret("SUPABASE_URL"){
+        Some(url) => url,
+        None => "".to_owned()
+    };
+    let api_key = match get_secret("SUPABASE_API_KEY"){
+        Some(key) => key,
+        None => "".to_owned()
     };
 
-    let api_key = match env::var("SUPABASE_API_KEY"){
-        Ok(key) => key,
-        Err(err) => "".to_owned()
-    };
     
 
     let mut headers = HeaderMap::new();
@@ -45,16 +44,14 @@ pub async fn get_auth_data(username: &str) -> Result< Vec<User_Auth_Table>, reqw
 
 pub async fn insert_auth_data(user: Json<User_Auth_Table>) -> Result< (), reqwest::Error > {
 
-    dotenvy::dotenv();
-
-    let url = match env::var("SUPABASE_URL"){
-        Ok(url) => url,
-        Err(err) => "".to_owned()
+    
+    let url = match get_secret("SUPABASE_URL"){
+        Some(url) => url,
+        None => "".to_owned()
     };
-
-    let api_key = match env::var("SUPABASE_API_KEY"){
-        Ok(key) => key,
-        Err(err) => "".to_owned()
+    let api_key = match get_secret("SUPABASE_API_KEY"){
+        Some(key) => key,
+        None => "".to_owned()
     };
 
 

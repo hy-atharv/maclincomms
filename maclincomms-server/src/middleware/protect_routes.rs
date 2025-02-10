@@ -6,7 +6,8 @@ use jsonwebtoken::{
     decode, errors::{Error as JwtError, ErrorKind}, Algorithm, DecodingKey, TokenData, Validation
 };
 
-use std::env;
+use crate::secret_store::get_secret;
+
 
 
 use crate::models::{jwt_models::{UserAuthenticationToken, UserClaims}};
@@ -29,18 +30,17 @@ impl FromRequest for UserAuthenticationToken {
 	// Couldn't convert Header::Authorization to String
 	if authentication_token.is_empty() { return ready(Err(ErrorUnauthorized("Authentication token has unknown data!"))) }
 
-	dotenvy::dotenv();
 
-    let secret= match env::var("TOKEN_SECRET"){
-        Ok(sec) => sec,
-        Err(err) => "".to_owned()
+    let server_secret = match get_secret("TOKEN_SECRET"){
+        Some(token) => token,
+        None => "".to_owned()
     };
 
 
 
 	let token_result: Result<TokenData<UserClaims>, JwtError> = decode::<UserClaims>(
 	    &authentication_token,
-	    &DecodingKey::from_secret(secret.as_str().as_ref()),
+	    &DecodingKey::from_secret(server_secret.as_str().as_ref()),
 	    &Validation::new(Algorithm::HS256),
 	);
    println!("{:?}",token_result);
