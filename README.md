@@ -1,4 +1,7 @@
 # maclincomms - (macOS & Linux Communications)
+<img width=500 src="https://imgur.com/a/ihmh2fN">
+
+
 - ### Chat with your fellow macOS & Linux users in terminal
 - ### Developed entirely in Rust
 
