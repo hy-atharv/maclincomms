@@ -1,5 +1,5 @@
 # maclincomms - (macOS & Linux Communications)
-<img width=500 src="https://imgur.com/a/ihmh2fN">
+<img width=800 src="https://github.com/hy-atharv/maclincomms/blob/76841e0ce9206b8703f185bee8efd2158fda9df3/maclincomms.png">
 
 
 - ### Chat with your fellow macOS & Linux users in terminal
