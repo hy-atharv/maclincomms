@@ -8,13 +8,7 @@
 **Open to forks, collabs and PRs**
 
 
-## TODOS
-
-- **End to End Encrypted Chats**
-- **Create and join private rooms**
-- **Fixing server for some socket connection issues**
-- **Sending files to other users**
-
+## VERSION 2.0 LOADING...
 
 ## Installation
 
