@@ -1,4 +1,5 @@
 # maclincomms - (macOS & Linux Communications)
+## VERSION 2.0 LOADING...
 <img width=800 src="https://github.com/hy-atharv/maclincomms/blob/76841e0ce9206b8703f185bee8efd2158fda9df3/maclincomms.png">
 
 
@@ -8,7 +9,7 @@
 **Open to forks, collabs and PRs**
 
 
-## VERSION 2.0 LOADING...
+
 
 ## Installation
 
