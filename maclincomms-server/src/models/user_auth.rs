@@ -6,5 +6,6 @@ use serde::{Deserialize, Serialize};
 pub struct User_Auth_Table{
     pub username: String,
     pub password_hash: String,
-    pub password_salt: String
+    pub password_salt: String,
+    pub public_identity_key: String
 }

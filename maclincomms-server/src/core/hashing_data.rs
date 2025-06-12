@@ -1,5 +1,6 @@
+use argon2::{password_hash::{PasswordHasher, SaltString}, Argon2, PasswordHash, PasswordVerifier};
 use ring::pbkdf2;
-use rand::Rng;
+use rand::{rngs::OsRng, Rng};
 use std::num::NonZeroU32;
 
 const  PBKDF2_ITERATIONS: NonZeroU32 = match NonZeroU32::new(100_000) {
@@ -39,4 +40,29 @@ pub fn verify_user_password(password: String, salt: &[u8], hashed_password: &[u8
         hashed_password,
     )
     .is_ok()
+}
+
+
+pub fn hash_room_password(pass: String) -> String {
+    // Generate a random salt
+    let mut salt = SaltString::generate(&mut OsRng);
+
+    let argon2 = Argon2::default();
+
+    //Hash password to PHC String
+    let password_hash = argon2.hash_password(pass.as_bytes(), &salt).unwrap().to_string();
+    
+    return password_hash;
+}
+
+pub fn verify_room_password(password: String, password_hash: String) -> bool {
+    
+    let argon2 = Argon2::default();
+
+    let parsed_hash = PasswordHash::new(&password_hash).unwrap();
+
+    //Verify pass hash
+    let is_correct = argon2.verify_password(password.as_bytes(), &parsed_hash).is_ok();
+    
+    return is_correct;
 }

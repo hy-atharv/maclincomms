@@ -4,3 +4,7 @@ pub mod response_data;
 pub mod user_auth;
 pub mod status_types;
 pub mod jwt_models;
+pub mod room_data;
+pub mod dms_data;
+pub mod notification_data;
+pub mod ack_model;
