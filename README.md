@@ -26,24 +26,63 @@ It offers **public chats, ephemeral & secure rooms, secure DM chats, and notific
 
 ## 💻Installation
 
-1. ### Homebrew
-**You need to have homebrew package manager to install maclincomms**.
+**You can download maclincomms either with homebrew package manager OR by manually downloading the zipped binary, extracting it and setting up the `PATH` variable.**
+
+### Method 1: Install with Homebrew
+
+**You need to have homebrew package manager to install maclincomms by this method**.
 
 [**Homebrew Installation Guide**](https://brew.sh)
 
-2. ### Installing maclincomms with `brew`
 **Open your terminal and paste these commands once when you have `brew` working**.
-```
-brew tap hy-atharv/maclincomms
-```
-```
-brew install maclincomms
-```
-3. ### Running maclincomms
-**Just type maclincomms**!
-```
-maclincomms
-```
+> ```
+> brew tap hy-atharv/maclincomms
+> ```
+> ```
+> brew install maclincomms
+> ```
+
+**After installation, Just type maclincomms anytime, anywhere**!
+> ```
+> maclincomms
+> ```
+
+### Method 2: Download zipped binary
+
+**You can download the zipped binary for your system, as per your OS and processor architecture.**
+
+| **OS**         | **Architecture** | **Tar Archive** |
+|----------------|------------------|-----------------|
+| macOS          | arm              | [download](https://github.com/hy-atharv/maclincomms/releases/download/v2.0.0/maclincomms-mac-arm.tar.gz)       |
+| Linux Distros  | x86_64           | [download](https://github.com/hy-atharv/maclincomms/releases/download/v2.0.0/maclincomms-linux-x86_64.tar.gz)        |
+
+**Extract the binary *maclincomms* from the downloaded tar archive**
+> ```
+> tar -xvzf <downloaded_filename_with_extension>
+> ```
+
+**Set up the $PATH variable for the maclincomms binary**
+
+For Linux Distros:
+> ```
+> echo 'export PATH=$PATH:/path_to_directory_where_maclincomms_exists' >> ~/.bash_profile
+> ```
+> ```
+> echo 'export PATH=$PATH:/path_to_directory_where_maclincomms_exists' >> ~/.bashrc
+> ```
+
+For macOS:
+> ```
+> echo 'export PATH="/path_to_directory_where_maclincomms_exists:$PATH"' >> ~/.zshrc
+> ```
+> ```
+> echo 'export PATH="/path_to_directory_where_maclincomms_exists:$PATH"' >> ~/.bash_profile
+> ```
+
+**Just type maclincomms anytime, anywhere**!
+> ```
+> maclincomms
+> ```
 
 ## 📜Documentation
 
