@@ -20,6 +20,6 @@ It offers **public chats, ephemeral & secure rooms, secure DM chats, and notific
 
 <p align="center">
   <a href="https://youtu.be/Vs1rYvz6bCc">
-    <img src="https://github.com/hy-atharv/maclincomms/blob/76841e0ce9206b8703f185bee8efd2158fda9df3/maclincomms.png" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/b58a4a5f-8acb-46b2-a784-f6432458e207" width="630" height="380">
   </a>
 </p>   
