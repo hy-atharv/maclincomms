@@ -63,7 +63,7 @@ maclincomms
 14. [Whisper Mode](https://github.com/hy-atharv/maclincomms/blob/main/README.md#14-whisper-mode)
 15. [Realtime Notifications](https://github.com/hy-atharv/maclincomms/blob/main/README.md#15-realtime-notifications)
 16. [Queued Notifications](https://github.com/hy-atharv/maclincomms/blob/main/README.md#16-queued-notifications)
-17. [Block/Unblock Users](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+17. [Block/Unblock Users](https://github.com/hy-atharv/maclincomms/blob/main/README.md#17-blockunblock-users)
 18. [Databases & Server](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
 19. [Project Maintenance & Future Updates](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
 
