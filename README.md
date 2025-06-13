@@ -10,9 +10,9 @@ It offers **public chats, ephemeral & secure rooms, secure DM chats, and notific
 
 ## 𝌞Contents
 
-1. [Introduction](https://github.com/hy-atharv/maclincomms#%EF%B8%8Fintroduction)
+1. [Introduction](https://github.com/hy-atharv/maclincomms#introduction)
 2. [Installation](https://github.com/hy-atharv/maclincomms/blob/main/README.md#installation)
-3. [Documentation](https://github.com/hy-atharv/Pictorica/blob/main/README.md#%EF%B8%8Ftry-it-yourself)
+3. [Documentation](https://github.com/hy-atharv/maclincomms/blob/main/README.md#documentation)
 4. [Open Source & Contribution](https://github.com/hy-atharv/Pictorica/blob/main/README.md#documentation)
 
 ## ▶️Introduction
