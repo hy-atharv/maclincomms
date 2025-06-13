@@ -54,7 +54,7 @@ maclincomms
 5. [Getting Started](https://github.com/hy-atharv/maclincomms/blob/main/README.md#5-getting-started)
 6. [Persistent Authentication](https://github.com/hy-atharv/maclincomms/blob/main/README.md#6-persistent-authentication)
 7. [World Chat](https://github.com/hy-atharv/maclincomms/blob/main/README.md#7-world-chat)
-8. [Add Users](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+8. [Add Users](https://github.com/hy-atharv/maclincomms/blob/main/README.md#8-add-users)
 9. [DM Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
 10. [DM Chats End-To-End Encryption](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
 11. [Cloud-Stored Sessioned DM Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
