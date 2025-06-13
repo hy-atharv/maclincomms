@@ -1,4 +1,4 @@
-# 📺💬maclincomms (macOS & Linux Communications)💬📺
+# 📺💬maclincomms (macOS & Linux Communications)💬
 <p align="center">
 <img width=700 src="https://github.com/hy-atharv/maclincomms/blob/76841e0ce9206b8703f185bee8efd2158fda9df3/maclincomms.png" align="center">
 </p>
