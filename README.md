@@ -57,7 +57,7 @@ maclincomms
 8. [Add Users](https://github.com/hy-atharv/maclincomms/blob/main/README.md#8-add-users)
 9. [DM Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#9-%EF%B8%8Fdm-chats)
 10. [DM Chats End-To-End Encryption](https://github.com/hy-atharv/maclincomms/blob/main/README.md#10-dm-chats-end-to-end-encryption)
-11. [Cloud-Stored Sessioned DM Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+11. [Cloud-Stored Sessioned DM Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#11-%EF%B8%8Fcloud-stored-sessioned-dm-chats)
 12. [Room Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
 13. [Room Chats End-To-End Encryption](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
 14. [Whisper Mode](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
