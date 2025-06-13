@@ -51,7 +51,7 @@ maclincomms
 2. [Architecture](https://github.com/hy-atharv/maclincomms/blob/main/README.md#%EF%B8%8Farchitecture)
 3. [TUI & Terminal Window](https://github.com/hy-atharv/maclincomms/blob/main/README.md#%EF%B8%8Ftui--terminal-window)
 4. [Inputs & Key Bindings](https://github.com/hy-atharv/maclincomms/blob/main/README.md#%EF%B8%8Finputs--key-bindings)
-5. [Getting Started](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+5. [Getting Started](https://github.com/hy-atharv/maclincomms/blob/main/README.md#5-getting-started)
 6. [Persistent Authentication](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
 7. [World Chat](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
 8. [Add Users](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
