@@ -110,6 +110,16 @@ For macOS:
 
 ## 1. 🔮Overview
 
+**maclincomms** is a modern, terminal-native chat application designed to deliver fast, secure, and efficient communication within a text-based environment. This documentation provides a comprehensive walkthrough of the system's architecture, core technologies, and design principles that power its development.
+
+**Built entirely in Rust**, maclincomms leverages the language’s performance and memory safety guarantees to deliver a robust and reliable system. The terminal interface is crafted using [Ratatui](https://ratatui.rs), offering a clean, fluid, and visually appealing TUI — far beyond the aesthetics of traditional command-line tools.
+
+Security lies at the heart of maclincomms. All communication is protected with **end-to-end encryption**, while access to server endpoints is safeguarded using **JWT-based authentication**, ensuring secure identity verification and private messaging.
+
+The backend is powered by **Actix Web** and **Tokio**, combining high concurrency with asynchronous execution. It follows an **event-driven architecture**, using `mpsc` channels for internal message flow and `Arc` with `Mutex` for safe shared state management across threads.
+
+Together, these design choices make maclincomms **lightweight**, **fast**, and **secure by design** — a serious step toward realizing a true **“WhatsApp in the Terminal”.**
+
 ## 2. ⚙️Architecture
 
 ## 3. 🖥️TUI & Terminal Window
