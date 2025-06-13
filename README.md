@@ -47,7 +47,7 @@ maclincomms
 
 ## 📜Documentation
 
-1. [Overview](https://github.com/hy-atharv/maclincomms/blob/main/README.md#overview)
+1. [Overview](https://github.com/hy-atharv/maclincomms#1-overview)
 2. [Architecture](https://github.com/hy-atharv/maclincomms/blob/main/README.md#%EF%B8%8Farchitecture)
 3. [TUI & Terminal Window](https://github.com/hy-atharv/maclincomms/blob/main/README.md#%EF%B8%8Ftui--terminal-window)
 4. [Inputs & Key Bindings](https://github.com/hy-atharv/maclincomms/blob/main/README.md#%EF%B8%8Finputs--key-bindings)
