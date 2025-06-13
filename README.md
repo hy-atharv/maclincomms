@@ -10,8 +10,8 @@ It offers **public chats, ephemeral & secure rooms, secure DM chats, and notific
 
 ## 𝌞Contents
 
-1. [Introduction](https://github.com/hy-atharv/Pictorica/blob/main/README.md#%EF%B8%8Ftech-stack-used-in-pictorica)
-2. [Installation](https://github.com/hy-atharv/Pictorica/blob/main/README.md#%EF%B8%8Fdemonstration)
+1. [Introduction](https://github.com/hy-atharv/maclincomms/edit/main/README.md#%EF%B8%8Fintroduction)
+2. [Installation](https://github.com/hy-atharv/maclincomms/edit/main/README.md#installation)
 3. [Documentation](https://github.com/hy-atharv/Pictorica/blob/main/README.md#%EF%B8%8Ftry-it-yourself)
 4. [Open Source & Contribution](https://github.com/hy-atharv/Pictorica/blob/main/README.md#documentation)
 
