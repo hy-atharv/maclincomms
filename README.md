@@ -1,45 +1,25 @@
-# maclincomms - (macOS & Linux Communications)
-## VERSION 2.0 LOADING...
-<img width=800 src="https://github.com/hy-atharv/maclincomms/blob/76841e0ce9206b8703f185bee8efd2158fda9df3/maclincomms.png">
+# 📺💬maclincomms (macOS & Linux Communications)💬📺
+<p align="center">
+<img width=700 src="https://github.com/hy-atharv/maclincomms/blob/76841e0ce9206b8703f185bee8efd2158fda9df3/maclincomms.png" align="center">
+</p>
+
+**maclincomms** (macOS & Linux Communications) is a **Lightweight, Fast, Secure, and Secretive** terminal-based app with a cool **retro-themed yet modern UI**. It runs **seamlessly right in your terminal**.
+**End-to-end encrypted** conversations without the hassle of downloading a desktop application or navigating to a browser make it a **potential “WhatsApp in the Terminal"**.
+It offers **public chats, ephemeral & secure rooms, secure DM chats, and notifications** — all **within your terminal window**.
 
 
-### Chat with your fellow macOS & Linux users in terminal
-### Developed entirely in Rust
+## 𝌞Contents
 
-**Open to forks, collabs and PRs**
+1. [Introduction](https://github.com/hy-atharv/Pictorica/blob/main/README.md#%EF%B8%8Ftech-stack-used-in-pictorica)
+2. [Installation](https://github.com/hy-atharv/Pictorica/blob/main/README.md#%EF%B8%8Fdemonstration)
+3. [Documentation](https://github.com/hy-atharv/Pictorica/blob/main/README.md#%EF%B8%8Ftry-it-yourself)
+4. [Open Source & Contribution](https://github.com/hy-atharv/Pictorica/blob/main/README.md#documentation)
 
+## ▶️Introduction
+**Watch maclincomms light up the terminal!**
 
-
-
-## Installation
-
-1. ### Homebrew
-**You need to have homebrew package manager to install maclincomms**.
-
-[**Homebrew Installation Guide**](https://brew.sh)
-
-2. ### Installing maclincomms with `brew`
-**Open your terminal and paste these commands once when you have `brew` working**.
-```
-brew tap hy-atharv/maclincomms
-```
-```
-brew install maclincomms
-```
-3. ### Running maclincomms
-**Just type maclincomms**!
-```
-maclincomms
-```
-## Chat with your fellow macOS & Linux users
-**Now just register with a Unique username and password, and get connected to the world!**
-
-<img width="947" alt="Screenshot 2024-11-23 at 2 10 47 PM" src="https://github.com/user-attachments/assets/1da9f345-8991-4923-ae84-08fcca646222">
-
-***DO NOT SHARE ANY SENSITIVE INFORMATION ON PUBLIC CHAT***
-## Exiting maclincomms
-**You can exit by simply typing `exit`**
-## Just for fun!
-**Try typing windows and you say goodbye 😬**
-
-<img width="508" alt="Screenshot 2024-11-23 at 2 25 43 PM" src="https://github.com/user-attachments/assets/41468825-137a-4d95-a88c-d198c009691d">
+<p align="center">
+  <a href="https://youtu.be/Vs1rYvz6bCc">
+    <img src="https://github.com/hy-atharv/maclincomms/blob/76841e0ce9206b8703f185bee8efd2158fda9df3/maclincomms.png" width="640" height="360">
+  </a>
+</p>   
