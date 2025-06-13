@@ -148,7 +148,7 @@ For macOS:
 
 ## 🌐Open Source & Contribution
 
-1. [Open Source, Free to explore & Build on](https://github.com/hy-atharv/maclincomms#%EF%B8%8Fintroduction)
+1. [Open Source, Free to explore & Build on](https://github.com/hy-atharv/maclincomms#1-%EF%B8%8Fopen-source-free-to-explore--build-on)
 2. [Credit Honestly](https://github.com/hy-atharv/maclincomms#%EF%B8%8Fintroduction)
 3. [How to Contribute?](https://github.com/hy-atharv/maclincomms#%EF%B8%8Fintroduction)
 
