@@ -48,26 +48,31 @@ maclincomms
 ## 📜Documentation
 
 1. [Overview](https://github.com/hy-atharv/maclincomms/blob/main/README.md#overview)
-2. [TUI & Terminal Window](https://github.com/hy-atharv/maclincomms/blob/main/README.md#installation)
-3. [Key Bindings](https://github.com/hy-atharv/maclincomms/blob/main/README.md#documentation)
-4. [Getting Started](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-5. [Persistent Authentication](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-6. [World Chat](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-7. [Add Users](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-8. [DM Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-9. [DM Chats End-To-End Encryption](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-10. [Cloud-Stored Sessioned DM Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-11. [Room Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-12. [Room Chats End-To-End Encryption](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-13. [Whisper Mode](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-14. [Realtime Notifications](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-15. [Queued Notifications](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-16. [Block/Unblock Users](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-17. [Databases & Server](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
-18. [Project Maintenance & Future Updates](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+2. [Architecture](https://github.com/hy-atharv/maclincomms/blob/main/README.md#overview)
+3. [TUI & Terminal Window](https://github.com/hy-atharv/maclincomms/blob/main/README.md#installation)
+4. [Key Bindings](https://github.com/hy-atharv/maclincomms/blob/main/README.md#documentation)
+5. [Getting Started](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+6. [Persistent Authentication](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+7. [World Chat](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+8. [Add Users](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+9. [DM Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+10. [DM Chats End-To-End Encryption](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+11. [Cloud-Stored Sessioned DM Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+12. [Room Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+13. [Room Chats End-To-End Encryption](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+14. [Whisper Mode](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+15. [Realtime Notifications](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+16. [Queued Notifications](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+17. [Block/Unblock Users](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+18. [Databases & Server](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+19. [Project Maintenance & Future Updates](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
 
 
 ## 🔮Overview
+
+## ⚙️Architecture
+
+## 🖥️TUI & Terminal Window
 
 
 
