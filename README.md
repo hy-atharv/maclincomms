@@ -152,7 +152,7 @@ For macOS:
 2. [Credit Honestly](https://github.com/hy-atharv/maclincomms#%EF%B8%8Fintroduction)
 3. [How to Contribute?](https://github.com/hy-atharv/maclincomms#%EF%B8%8Fintroduction)
 
-## 1. 🧑‍🧑‍🧒Open Source, Free to explore & Build on
+## 1. 🛠️Open Source, Free to explore & Build on
 
 ## 2. 🤝Credit Honestly
 
