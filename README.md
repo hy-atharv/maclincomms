@@ -20,6 +20,27 @@ It offers **public chats, ephemeral & secure rooms, secure DM chats, and notific
 
 <p align="center">
   <a href="https://youtu.be/Vs1rYvz6bCc">
-    <img src="https://github.com/user-attachments/assets/b58a4a5f-8acb-46b2-a784-f6432458e207" width="630" height="380">
+    <img src="https://github.com/user-attachments/assets/b58a4a5f-8acb-46b2-a784-f6432458e207" width="630" height="390">
   </a>
-</p>   
+</p>
+
+## 💻Installation
+
+1. ### Homebrew
+**You need to have homebrew package manager to install maclincomms**.
+
+[**Homebrew Installation Guide**](https://brew.sh)
+
+2. ### Installing maclincomms with `brew`
+**Open your terminal and paste these commands once when you have `brew` working**.
+```
+brew tap hy-atharv/maclincomms
+```
+```
+brew install maclincomms
+```
+3. ### Running maclincomms
+**Just type maclincomms**!
+```
+maclincomms
+```
