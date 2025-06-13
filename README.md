@@ -68,14 +68,43 @@ maclincomms
 19. [Project Maintenance & Future Updates](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
 
 
-## 🔮Overview
+## 1. 🔮Overview
 
-## ⚙️Architecture
+## 2. ⚙️Architecture
 
-## 🖥️TUI & Terminal Window
+## 3. 🖥️TUI & Terminal Window
 
-## ⌨️Inputs & Key Bindings
+## 4. ⌨️Inputs & Key Bindings
 
+## 5. 🎬Getting Started
+
+## 6. 💻Persistent Authentication
+
+## 7. 🌏World Chat
+
+## 8. 👥Add Users
+
+## 9. ✉️DM Chats
+
+## 10. 🔒DM Chats End-To-End Encryption
+
+## 11. ☁️Cloud-Stored Sessioned DM Chats
+
+## 12. 🚪Room Chats
+
+## 13. 🔒Room Chats End-To-End Encryption
+
+## 14. 🤫Whisper Mode
+
+## 15. 🔔Realtime Notifications
+
+## 16. 🔔Queued Notifications
+
+## 17. 🚫Block/Unblock Users
+
+## 18. 🗄️Databases & Server
+
+## 19. 🔄Project Maintenance & Future Updates
 
 
 ## 🌐Open Source & Contribution
