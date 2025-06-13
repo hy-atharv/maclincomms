@@ -47,7 +47,24 @@ maclincomms
 
 ## 📜Documentation
 
-
+1. [Overview](https://github.com/hy-atharv/maclincomms#%EF%B8%8Fintroduction)
+2. [TUI & Terminal Window](https://github.com/hy-atharv/maclincomms/blob/main/README.md#installation)
+3. [Key Bindings](https://github.com/hy-atharv/maclincomms/blob/main/README.md#documentation)
+4. [Getting Started](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+5. [Persistent Authentication](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+6. [World Chat](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+7. [Add Users](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+8. [DM Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+9. [DM Chats End-To-End Encryption](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+10. [Cloud-Stored Sessioned DM Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+11. [Room Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+12. [Room Chats End-To-End Encryption](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+13. [Whisper Mode](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+14. [Realtime Notifications](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+15. [Queued Notifications](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+16. [Block/Unblock Users](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+17. [Databases & Server](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+18. [Project Maintenance & Future Updates](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
 
 
 ## 🌐Open Source & Contribution
