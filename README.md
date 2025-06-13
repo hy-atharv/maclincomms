@@ -23,6 +23,7 @@ It offers **public chats, ephemeral & secure rooms, secure DM chats, and notific
     <img src="https://github.com/user-attachments/assets/b58a4a5f-8acb-46b2-a784-f6432458e207" width="630" height="390">
   </a>
 </p>
+<p align="center">Click the image to watch</p>
 
 ## 💻Installation
 
