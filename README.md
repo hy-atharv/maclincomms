@@ -62,7 +62,7 @@ maclincomms
 13. [Room Chats End-To-End Encryption](https://github.com/hy-atharv/maclincomms/blob/main/README.md#13-room-chats-end-to-end-encryption)
 14. [Whisper Mode](https://github.com/hy-atharv/maclincomms/blob/main/README.md#14-whisper-mode)
 15. [Realtime Notifications](https://github.com/hy-atharv/maclincomms/blob/main/README.md#15-realtime-notifications)
-16. [Queued Notifications](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
+16. [Queued Notifications](https://github.com/hy-atharv/maclincomms/blob/main/README.md#16-queued-notifications)
 17. [Block/Unblock Users](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
 18. [Databases & Server](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
 19. [Project Maintenance & Future Updates](https://github.com/hy-atharv/maclincomms/blob/main/README.md#open-source--contribution)
