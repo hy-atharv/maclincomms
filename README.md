@@ -68,3 +68,8 @@ maclincomms
 
 
 ## 🌐Open Source & Contribution
+
+1. [Open Source, Free to explore and Build on](https://github.com/hy-atharv/maclincomms#%EF%B8%8Fintroduction)
+2. [Credit Honestly](https://github.com/hy-atharv/maclincomms#%EF%B8%8Fintroduction)
+3. [How to Contribute?](https://github.com/hy-atharv/maclincomms#%EF%B8%8Fintroduction)
+
