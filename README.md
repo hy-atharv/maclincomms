@@ -122,6 +122,8 @@ Together, these design choices make maclincomms **lightweight**, **fast**, and *
 
 ## 2. ⚙️Architecture
 
+**maclincomms** follows a unified Rust-based architecture, with both the client and server built in Rust for performance, safety, and seamless integration. The server leverages **Actix Web** and **Tokio** to handle high-concurrency workloads efficiently, utilizing the `actix-ws` crate for WebSocket support. On the client side, `tokio-tungstenite` crate and the **Tokio** async runtime enable non-blocking WebSocket communication for sending and receiving messages. The system adopts an **event-driven architecture**, using `mpsc` channels to propagate network events and coordinate application logic. Shared state is safely accessed across threads using `Arc` and `Mutex`. All server endpoint requests are authenticated via **JWTs**, ensuring secure access. For end-to-end encryption, maclincomms implements a lightweight custom version of the **Signal Protocol**, built from scratch with the help of [Rust Crypto](https://github.com/rustcrypto) libraries. Additionally, real-time notifications are handled using **Redis PUB/SUB** and delivered via **Server-Sent Events (SSE)**, with offline messages temporarily queued in Redis lists for quick retrieval. This architecture strikes an effective balance between speed, scalability, and security — purpose-built for a modern, terminal-based communication platform.
+
 ## 3. 🖥️TUI & Terminal Window
 
 ## 4. ⌨️Inputs & Key Bindings
