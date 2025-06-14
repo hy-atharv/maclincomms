@@ -286,10 +286,25 @@ In **maclincomms**, every message—whether in World Chat, private rooms, or dir
 
 In **World Chat**, messages currently only support **Server Acknowledgement (`>`)**, as there is no designated recipient to confirm delivery beyond the server.
 
+---
+
 To learn how to send **multi-line messages** in World Chat, refer to:  
 [Message Input in Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#42-message-input-in-chats)
 
 ## 8. 👥Add Users
+
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/30ac7fe2-657a-4399-9699-06499651f4ed" align="center">
+</p>
+<p align="center">Add User Screen</p>
+
+In **maclincomms**, connecting with other users is simple and seamless through the **Add User** screen.
+
+To send a friend request, navigate to the **Add User** screen from the main menu. Enter the **username** of the person you wish to add, along with an **optional message**. This message will be sent alongside the add request to provide context or a greeting.
+
+Once submitted, the recipient will receive a notification of your request. They have the option to either **accept** or **ignore** it. If they choose to accept, you’ll receive a confirmation notification, and the user will automatically be added to your **DM User** list, enabling you to start a direct message conversation.
+
+This flow ensures that user connections remain **intentional**, **consensual**, and **notified at every step**.
 
 ## 9. ✉️DM Chats
 
