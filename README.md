@@ -29,6 +29,8 @@ It offers **public chats, ephemeral & secure rooms, secure DM chats, and notific
 
 **You can download maclincomms either with homebrew package manager OR by manually downloading the zipped binary, extracting it and setting up the `PATH` variable.**
 
+---
+
 ### Method 1: Install with Homebrew
 
 **You need to have homebrew package manager to install maclincomms by this method**.
