@@ -263,6 +263,11 @@ This flow ensures a balance between **user convenience** and **account security*
 
 ## 7. 🌏World Chat
 
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/488216c5-be6a-40e1-8561-16ed786b6cc6" align="center">
+</p>
+<p align="center">World Chat Screen</p>
+
 ## 8. 👥Add Users
 
 ## 9. ✉️DM Chats
