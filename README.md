@@ -315,6 +315,18 @@ This flow ensures that user connections remain **intentional**, **consensual**, 
 
 ## 9. ✉️DM Chats
 
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/840ef5b1-9712-4297-a2da-a60e3ed3709c" align="center">
+</p>
+<p align="center">DMs List in DM User Screen</p>
+
+
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/f5045ff0-10e4-48fc-8cc4-54af319b7b20" align="center">
+</p>
+<p align="center">DM Chat Screen</p>
+
+
 ## 10. 🔒DM Chats End-To-End Encryption
 
 ## 11. ☁️Cloud-Stored Sessioned DM Chats
