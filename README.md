@@ -540,6 +540,31 @@ This method achieves the effect of **"Disappearing Messages"** without relying o
 
 ## 12. 🚪Room Chats
 
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/89ea0965-c760-4a3d-8bc9-431d1077f598" align="center">
+</p>
+<p align="center">Room Chat Screen</p>
+
+
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/2ce99cf6-0f88-4dae-98ae-ade3d718cea2" align="center">
+</p>
+<p align="center">Create Room Screen</p>
+
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/a85d993e-0cbd-4981-bece-765d2e434f3a" align="center">
+</p>
+<p align="center">Room Chat Screen displaying Room Name & Key to Owner</p>
+
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/958a3bc0-e3c7-469a-a622-51cff9251dc1" align="center">
+</p>
+<p align="center">Join Room Screen</p>
+
+
+
+
+
 ## 13. 🔒Room Chats End-To-End Encryption
 
 ## 14. 🤫Whisper Mode
