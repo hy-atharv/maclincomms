@@ -495,6 +495,49 @@ By combining **message-level key evolution** with **periodic root key replacemen
 
 ## 11. ☁️Cloud-Stored Sessioned DM Chats
 
+### 11.1 Device-Free Storage
+
+In **maclincomms**, **DM chats are never stored on your device**. Instead, they are securely encrypted and stored in the cloud using a unique **Session Key** owned by each user. This approach guarantees that your private messages never leave a trace on your local machine, ensuring stronger privacy.
+
+Whenever a user opens maclincomms, their **cloud-stored encrypted DM chats** are retrieved, decrypted locally, and then rendered in the chat UI when a DM with a specific user is opened.
+
+---
+
+### 11.2 Per-User Session Key Encryption
+
+Each user maintains their **own Session Key**, which encrypts **all their outgoing and incoming DM chats** for cloud storage. This means:
+- Chats you send and receive are encrypted with **your own Session Key**.
+- Your Session Key is not shared with other users.
+- You store **your own copy of the encrypted DM chat history** in the cloud, isolated from others.
+
+This method ensures that even if you and another user are part of the same conversation, **each of you stores your own encrypted version** of the DM session.
+
+---
+
+### 11.3 Time-Bound Session Lifecycle
+
+maclincomms adopts a **24-hour session window** for all DM chat backups. Each session is tagged with a **timestamp**, and the following mechanisms ensure that message data remains ephemeral:
+
+- The **Session Key** is rotated after 24 hours.
+- Chats encrypted with that key are also marked with the same session timestamp.
+- Upon session expiration:
+  - A new Session Key is generated.
+  - Older chat backups with the expired timestamp are automatically **deleted from the cloud**.
+
+This cycle leads to a natural expiration of messages and enforces **ephemeral messaging** without storing anything locally.
+
+---
+
+### 11.4 Disappearing Messages by Design
+
+Thanks to session-based encryption and timestamped cloud storage:
+- **DM chats vanish after each session ends**.
+- You’re left with **no traces** of prior messages unless you've actively opened them within that 24-hour period.
+- Even if someone gains access to your device, **there is no local chat data to retrieve**.
+
+This method achieves the effect of **"Disappearing Messages"** without relying on manual deletion or device-based cleanup—everything is managed **securely, automatically, and invisibly** in the background.
+
+
 ## 12. 🚪Room Chats
 
 ## 13. 🔒Room Chats End-To-End Encryption
