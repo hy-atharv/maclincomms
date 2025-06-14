@@ -47,6 +47,7 @@ It offers **public chats, ephemeral & secure rooms, secure DM chats, and notific
 > ```
 > maclincomms
 > ```
+---
 
 ### Method 2: Download zipped binary
 
@@ -164,6 +165,43 @@ To ensure the best experience using maclincomms, follow these guidelines:
 
 
 ## 4. ⌨️Inputs & Key Bindings
+
+### 4.1 Keyboard Control & Navigation
+
+**maclincomms** exclusively uses keyboard inputs to drive its interface. Every screen clearly displays its relevant key bindings, allowing you to intuitively navigate and trigger UI elements. Throughout the application, the `^` symbol denotes the **Control key** (e.g., `^Q` means `Ctrl + Q`). Thanks to the cross-platform support of the [`crossterm`](https://crates.io/crates/crossterm) library, key inputs behave consistently across macOS, Linux, and Windows.
+
+Each screen in maclincomms has dedicated input handling logic that emits events in line with the app's event-driven architecture. While contextual hints are shown inline, below is a complete reference of all global key bindings available throughout the application:
+
+| **Key Event**   | **Actions Performed**                                                                 |
+|-----------------|----------------------------------------------------------------------------------------|
+| `Ctrl + Q`      | Exits maclincomms                                                                     |
+| `Enter`         | - Selects an option from a menu  <br> - Submits a form  <br> - Sends a message <br> - Selects an item from a list |
+| `Esc`           | - Closes an open menu  <br> - Navigates back from any panel                          |
+| `Up / Down`     | - Navigates between menu options <br> - Scrolls through chat messages <br> - Moves through list items |
+| `I`             | Ignores and removes a notification from the notifications list                        |
+| `Ctrl + B`      | Blocks a user from the Block/Unblock User screen                                      |
+| `Ctrl + U`      | Unblocks a user from the Block/Unblock User screen                                    |
+
+---
+
+### 4.2 Message Input in Chats
+
+Due to the nature of terminal-based interfaces, text fields in **maclincomms** do not automatically wrap or support line breaks using combinations like `Shift + Enter`. Instead, to create **multi-line messages**, you can insert the escape sequence `\n` within your message. When sent, this will render as a new line inside the chat bubble, maintaining proper formatting within the TUI.
+
+Example:   
+```
+Hey there!\nHow are you doing today?
+```
+
+
+Will appear as:  
+```
+Hey there!  
+How are you doing today?
+```
+
+
+This method offers a reliable and platform-consistent way to send structured, multi-line messages — just like a boss.
 
 ## 5. 🎬Getting Started
 
