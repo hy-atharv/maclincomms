@@ -205,6 +205,19 @@ This method offers a reliable and platform-consistent way to send structured, mu
 
 ## 5. 🎬Getting Started
 
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/410afe7f-15a4-4712-89e2-ed16a8ec4a47" align="center">
+</p>
+<p align="center">Running maclincomms for the first time</p>
+
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/35aa0086-1fd0-4c36-89b7-f04dfce0d5d8" align="center">
+</p>
+<p align="center">Registering with valid username and strong password</p>
+
+
+
+
 ## 6. 💻Persistent Authentication
 
 ## 7. 🌏World Chat
