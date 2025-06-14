@@ -320,11 +320,46 @@ This flow ensures that user connections remain **intentional**, **consensual**, 
 </p>
 <p align="center">DMs List in DM User Screen</p>
 
+### 9.1 DM User Screen
+
+You can access all your direct message conversations through the **DM User** screen. This screen displays your **DMs List**, which contains all users you’ve connected with and had private conversations.
+
+To start chatting, simply navigate to the desired user in the DMs List using the arrow keys and press `Enter`. This will instantly load your chat history and take you to the **DM Chat Screen** for a seamless messaging experience.
+
+---
 
 <p align="center">
 <img width=600 src="https://github.com/user-attachments/assets/f5045ff0-10e4-48fc-8cc4-54af319b7b20" align="center">
 </p>
 <p align="center">DM Chat Screen</p>
+
+### 9.2 Private DM Channel
+
+Direct messages in **maclincomms** are designed for **private, secure, and end-to-end encrypted communication**.
+
+Unlike traditional messaging apps that store chat history on-device, **maclincomms does not retain any DM chat data locally**. Instead, messages are securely stored in the cloud as **encrypted, sessioned chat segments**, which automatically expire and are deleted after **24 hours**.
+
+This approach ensures your conversations remain **ephemeral, tamper-proof, and accessible only to the intended parties**. Whether you're collaborating with colleagues or talking to close friends, DMs provide the privacy and integrity you expect from a secure communication platform.
+
+---
+
+### 9.3 Message Acknowledgement
+
+Just like in other chat modes, maclincomms shows **message acknowledgement indicators** in DM chats at the top-right of each chat bubble:
+
+- `>` — **Server Acknowledgement**: The message has been successfully sent from your device and received by the server.
+- `>>` — **Receiver Acknowledgement**: The message has been delivered to the recipient’s device.
+
+In **DM chats**, maclincomms supports:
+- **Receiver Acknowledgement (`>>`)** when the recipient is **online**
+- **Server Acknowledgement (`>`)** when the recipient is **offline**
+
+This gives you real-time feedback on your message delivery status, enhancing trust and clarity in your conversations.
+
+---
+
+To learn how to send **multi-line messages** in DM Chat, refer to:  
+[Message Input in Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#42-message-input-in-chats)
 
 
 ## 10. 🔒DM Chats End-To-End Encryption
