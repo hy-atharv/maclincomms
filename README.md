@@ -366,6 +366,25 @@ To learn how to send **multi-line messages** in DM Chat, refer to:
 
 ## 10. 🔒DM Chats End-To-End Encryption
 
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/f19f4e5a-fc46-4438-af52-55bf419cce5e" align="center">
+</p>
+<p align="center">Symmetric-Key Ratchet</p>
+
+
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/7c20b36f-d1e5-4e49-9b90-66d99dce015d" align="center">
+</p>
+<p align="center">Diffie-Hellman Ratchet</p>
+
+
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/433ddcb8-0e3c-43b5-a02d-01edb4ced547" align="center">
+</p>
+<p align="center">Double Ratchet</p>
+
+
+
 ## 11. ☁️Cloud-Stored Sessioned DM Chats
 
 ## 12. 🚪Room Chats
