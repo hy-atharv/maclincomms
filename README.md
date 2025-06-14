@@ -132,6 +132,37 @@ Together, these design choices make maclincomms **lightweight**, **fast**, and *
 
 ## 3. 🖥️TUI & Terminal Window
 
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/3207999b-3522-4634-b1cf-baaac6e37995" align="center">
+</p>
+
+### 3.1 What is a TUI?
+
+A **Text-based User Interface (TUI)** provides an interactive UI experience within the terminal itself—without relying on graphical elements. TUIs offer a retro-inspired, keyboard-centric environment that feels snappy, distraction-free, and resource-efficient.
+
+**maclincomms** uses [`ratatui`](https://github.com/ratatui-org/ratatui), a powerful TUI library in Rust, to build an interface that is clean, structured, and visually engaging—while still being entirely text-rendered within the bounds of the terminal. Unlike graphical interfaces, maclincomms's TUI delivers speed and control without ever leaving the terminal context.
+
+---
+
+### 3.2 Terminal Window Behavior
+
+The TUI in maclincomms is rendered directly inside your existing terminal window—**no additional windows or GUI elements are opened**. Once launched, it fully occupies your terminal screen, and suspends normal shell interactions until you exit the program.
+
+maclincomms does not accept mouse interactions. It is designed to be **entirely controlled via keyboard input**, leveraging the [`crossterm`](https://crates.io/crates/crossterm) library for cross-platform key event handling.
+
+---
+
+### 3.3 Best Usage Guidelines
+
+To ensure the best experience using maclincomms, follow these guidelines:
+
+- **Use a dedicated terminal app**, not embedded terminals in code editors or IDEs.
+- **Always switch your terminal to fullscreen mode** before launching maclincomms. Small or constrained terminal dimensions can break layout rendering and cause the application to panic.
+- **Expect minor differences in color rendering** depending on your terminal emulator, operating system, and theme (e.g., dark/light mode or ANSI color profile support). These variations are common and can slightly affect how elements appear.
+- **To exit maclincomms at any time**, press `Control + E`—this shortcut works consistently across macOS, Linux, and Windows systems.
+
+
+
 ## 4. ⌨️Inputs & Key Bindings
 
 ## 5. 🎬Getting Started
