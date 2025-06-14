@@ -268,6 +268,27 @@ This flow ensures a balance between **user convenience** and **account security*
 </p>
 <p align="center">World Chat Screen</p>
 
+
+### 7.1 Public Global Channel
+
+**World Chat** is a free and open communication channel within **maclincomms**, where all users can join and engage in a public conversation. It provides a global, community-driven space to connect and chat in real-time with other maclincomms users.
+
+Since World Chat is open to all registered users and allows anyone to join or leave at any time, **it is not end-to-end encrypted**. This design choice prioritizes openness and simplicity for the global chatroom while maintaining security in private and direct conversations elsewhere in the app.
+
+---
+
+### 7.2 Message Acknowledgement
+
+In **maclincomms**, every message—whether in World Chat, private rooms, or direct messages—displays a visual acknowledgement marker in the top-right corner of the chat bubble. These markers represent the delivery status of each message:
+
+- `>` — **Server Acknowledgement**: The message has been successfully sent from your device and received by the server.
+- `>>` — **Receiver Acknowledgement**: The message has also been delivered to the intended recipient's device.
+
+In **World Chat**, messages currently only support **Server Acknowledgement (`>`)**, as there is no designated recipient to confirm delivery beyond the server.
+
+To learn how to send **multi-line messages** in World Chat, refer to:  
+[Message Input in Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#42-message-input-in-chats)
+
 ## 8. 👥Add Users
 
 ## 9. ✉️DM Chats
