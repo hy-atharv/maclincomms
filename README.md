@@ -238,10 +238,28 @@ To register, you'll be prompted to enter a **valid and unique username** along w
 After entering and confirming your password, press `Enter` to complete the registration process. Once successfully registered, you’ll be redirected to the **Home Screen** of maclincomms where you can begin exploring its features.
 
 
-
-
-
 ## 6. 💻Persistent Authentication
+
+### 6.1 Seamless Login Experience
+
+Starting from version `2.0.0`, **maclincomms** introduces **persistent authentication**, removing the need to log in every time the app is launched. This improvement over version `1.0.0` significantly enhances usability, especially for frequent users who previously had to manually authenticate on every run.
+
+---
+
+### 6.2 How It Works
+
+Behind the splash screen, maclincomms silently verifies the user using a **persistently stored access token**. This mechanism is powered by the [`disk-persist`](https://docs.rs/disk-persist/latest/disk_persist/) crate, which securely saves token data on the device.
+
+If the stored access token is still valid, authentication proceeds automatically without user intervention. When the access token expires, maclincomms uses the associated **refresh token** to request a new access token from the server and then updates the stored token—completing the entire flow transparently.
+
+---
+
+### 6.3 Token Expiry & Re-authentication
+
+While the persistent login flow works seamlessly during regular usage, **access and refresh tokens do expire after extended inactivity**. If you haven’t used maclincomms for a long time, the system will no longer be able to refresh tokens. In such cases, you’ll be prompted to re-enter your **username and password** to authenticate back into your existing account (on the same device).
+
+This flow ensures a balance between **user convenience** and **account security**, making authentication automatic during active use and protective when dormant.
+
 
 ## 7. 🌏World Chat
 
