@@ -134,8 +134,14 @@ Together, these design choices make maclincomms **lightweight**, **fast**, and *
 ## 3. 🖥️TUI & Terminal Window
 
 <p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/8fabbba4-c572-4aad-aad3-c9696bd6b163" align="center">
+</p>
+<p align="center">Splash Screen</p>
+
+<p align="center">
 <img width=600 src="https://github.com/user-attachments/assets/3207999b-3522-4634-b1cf-baaac6e37995" align="center">
 </p>
+<p align="center">Home Screen</p>
 
 ### 3.1 What is a TUI?
 
@@ -210,10 +216,27 @@ This method offers a reliable and platform-consistent way to send structured, mu
 </p>
 <p align="center">Running maclincomms for the first time</p>
 
+### 5.1 First-Time Setup
+
+When running `maclincomms` for the first time, you’ll begin by creating an account to access the system. For enhanced privacy and device-level security, **each instance of maclincomms supports only one registered account per device**. Once an account is created on a particular machine, it can only be accessed from that device. Likewise, attempting to log into the same account from another device is not supported. This model prevents account duplication and ensures that sensitive communication remains bound to a trusted environment.
+
+--- 
+
 <p align="center">
 <img width=600 src="https://github.com/user-attachments/assets/35aa0086-1fd0-4c36-89b7-f04dfce0d5d8" align="center">
 </p>
 <p align="center">Registering with valid username and strong password</p>
+
+### 5.2 Registering an Account
+
+To register, you'll be prompted to enter a **valid and unique username** along with a strong password. Make sure to follow the username guidelines below:
+
+- Must be between **5 and 15 characters** in length  
+- Can contain **only letters (A–Z, a–z)** and **digits (0–9)**  
+- **No spaces** or **special characters** are allowed
+
+After entering and confirming your password, press `Enter` to complete the registration process. Once successfully registered, you’ll be redirected to the **Home Screen** of maclincomms where you can begin exploring its features.
+
 
 
 
