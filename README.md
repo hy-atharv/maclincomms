@@ -545,6 +545,23 @@ This method achieves the effect of **"Disappearing Messages"** without relying o
 </p>
 <p align="center">Room Chat Screen</p>
 
+### 12.1 Private Ephemeral Room Channel
+
+**Rooms** in maclincomms are private, secure, and ephemeral group channels that offer end-to-end encrypted communication. A room can be created with a **unique Room Name**, and access to it is protected by a **Room Key**.
+
+Once created, the Room Owner can share this Room Key with trusted friends or colleagues, allowing them to join by entering the Room Name and Key.
+
+However, rooms in maclincomms are **ephemeral by design**:
+- When the **Room Owner exits the room or leaves maclincomms**, the entire room is **automatically deleted**.
+- All members are removed instantly.
+- No trace of the room or its chat history is retained, either locally or in the cloud.
+
+This ensures that Room Chats remain **temporary and private**, lasting **only as long as the Room Owner is present**.
+
+To learn how to send **multi-line messages** in Room Chat, refer to:  
+[Message Input in Chats](https://github.com/hy-atharv/maclincomms/blob/main/README.md#42-message-input-in-chats)
+
+---
 
 <p align="center">
 <img width=600 src="https://github.com/user-attachments/assets/2ce99cf6-0f88-4dae-98ae-ade3d718cea2" align="center">
@@ -556,13 +573,45 @@ This method achieves the effect of **"Disappearing Messages"** without relying o
 </p>
 <p align="center">Room Chat Screen displaying Room Name & Key to Owner</p>
 
+### 12.2 Create Rooms
+
+You can create a new room from the **Create Room Screen** by entering a **valid and available Room Name**. Once you hit `Enter`, the room is created and you're immediately joined as the **Room Owner**.
+
+Upon entering, a **system message** from maclincomms is displayed containing the:
+- **Room Name**
+- **Room Key**
+
+You can share these with others to allow them to join the room.
+
+---
+
 <p align="center">
 <img width=600 src="https://github.com/user-attachments/assets/958a3bc0-e3c7-469a-a622-51cff9251dc1" align="center">
 </p>
 <p align="center">Join Room Screen</p>
 
+### 12.3 Join Rooms
 
+To join an existing room, head to the **Join Room Screen**, enter the **Room Name and Key**, and hit `Enter`.
 
+If the provided Room Name and Key are valid and the room currently exists, you'll be **added to the room instantly**.
+
+However, if the **Room Owner leaves the room**, it is:
+- **Deleted on the spot**, and
+- All remaining participants are **disconnected immediately**.
+
+This keeps the room's existence tightly bound to the owner's presence, ensuring ephemerality.
+
+---
+
+### 12.4 Message Acknowledgement
+
+Just like in other chat modes, maclincomms shows **message acknowledgement indicators** in Room chats at the top-right of each chat bubble:
+
+- `>` — **Server Acknowledgement**: The message has been successfully sent from your device and received by the maclincomms server.
+- `>>` — **Receiver Acknowledgement**: The message has been delivered to the intended recipient’s device.
+
+In **Room Chats**, messages currently **only support Server Acknowledgement (`>`)**. Since there is no designated one-to-one recipient, **Receiver Acknowledgement from room members is not yet supported**.
 
 
 ## 13. 🔒Room Chats End-To-End Encryption
