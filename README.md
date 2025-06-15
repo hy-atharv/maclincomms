@@ -750,6 +750,15 @@ whisper --sw [username1,username2] <Message>
 
 ## 15. 🔔Realtime Notifications
 
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/000fe5a6-f6c2-473e-b28e-ca70b9f6fbe2" align="center">
+</p>
+<p align="center">All Caught Up</p>
+
+<table width="100%"><tr><td align="left"><img width="500" src="https://github.com/user-attachments/assets/7d0ef83e-67d6-464f-a74f-65c655559f27"></td><td align="right"><img width="500" src="https://github.com/user-attachments/assets/47c3f354-a6d7-4155-9a6d-86d06a4043a6"></td></tr></table>
+<p align="center">Realtime Notifications</p>
+
+
 ## 16. 🔔Queued Notifications
 
 ## 17. 🚫Block/Unblock Users
