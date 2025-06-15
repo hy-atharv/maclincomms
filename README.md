@@ -864,5 +864,8 @@ So I kindly request you to **credit maclincomms and me honestly** if you choose 
 Although this project is **open-source** and **free to reverse engineer, modify, and build upon**, it is licensed under the **MIT License**.  
 This means that for **any commercial use**, the **original copyright and license notice must be included**.
 
-## 3. 🏷️How to Contribute?
+---
 
+
+💡 Thank you for being a part of this open-source journey. PRs & Collaborations are Welcome!.  
+Every contribution, no matter how small, will help improve maclincomms for everyone.
