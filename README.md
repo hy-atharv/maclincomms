@@ -796,6 +796,29 @@ This mechanism guarantees **reliable delivery** of critical updates, even when t
 
 ## 17. 🚫Block/Unblock Users
 
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/2953bebf-8f57-48c6-ae0b-38a992227137" align="center">
+</p>
+<p align="center">Block/Unblock User Screen</p>
+
+**maclincomms** allows users to maintain their privacy and control their interactions by enabling the option to **Block** or **Unblock** users.
+
+If you’ve previously added someone but no longer wish to communicate with them, you can easily block them:
+
+- Navigate to the **Block/Unblock User** screen.
+- Enter the **username** of the user you wish to block.
+- Press `Ctrl + B` to **block** the user.
+
+If you decide to resume communication in the future:
+
+- Go to the same **Block/Unblock User** screen.
+- Enter the **username** of the user you want to unblock.
+- Press `Ctrl + U` to **unblock** the user.
+
+Blocking a user ensures they can no longer send you messages until they are unblocked and added again.
+
+
+
 ## 18. 🗄️Databases & Server
 
 ## 19. 🔄Project Maintenance & Future Updates
