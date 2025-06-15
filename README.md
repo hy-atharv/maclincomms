@@ -847,7 +847,6 @@ As of now, I **cannot guarantee active maintenance or regular future updates**. 
 
 1. [Open Source, Free to explore & Build on](https://github.com/hy-atharv/maclincomms#1-%EF%B8%8Fopen-source-free-to-explore--build-on)
 2. [Credit Honestly](https://github.com/hy-atharv/maclincomms#2-credit-honestly)
-3. [How to Contribute?](https://github.com/hy-atharv/maclincomms#3-%EF%B8%8Fhow-to-contribute)
 
 ## 1. 🛠️Open Source, Free to explore & Build on
 
@@ -867,5 +866,5 @@ This means that for **any commercial use**, the **original copyright and license
 ---
 
 
-💡 Thank you for being a part of this open-source journey. PRs & Collaborations are Welcome!.  
+💡 Thank you for being a part of this open-source journey. PRs & Collaborations are Welcome!  
 Every contribution, no matter how small, will help improve maclincomms for everyone.
