@@ -818,10 +818,28 @@ If you decide to resume communication in the future:
 Blocking a user ensures they can no longer send you messages until they are unblocked and added again.
 
 
-
 ## 18. 🗄️Databases & Server
 
+Currently, the **maclincomms** backend relies on the following hosted services:
+
+- **PostgreSQL Database** is hosted on [Supabase](https://supabase.com).
+- **Redis Database** is hosted on [Upstash](https://upstash.com).
+- The **maclincomms server** runs as a **monolith** and is hosted on [Shuttle](https://www.shuttle.dev).
+
+As of now, maclincomms does **not use a dedicated cloud infrastructure** and primarily operates on **free-tier services**.
+
+Due to this setup, you may occasionally experience:
+- **Slower response times**
+- **Temporary server outages**
+- **Database access delays or downtimes**
+
+These limitations are expected and will be addressed in future upgrades only if the project gets enough support.
+
+
 ## 19. 🔄Project Maintenance & Future Updates
+
+
+
 
 
 ## 🌐Open Source & Contribution
