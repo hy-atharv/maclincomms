@@ -468,7 +468,7 @@ The **Double Ratchet Algorithm** synergizes the strengths of both ratchets:
 
 maclincomms maintains ratchet synchronization using **Receiver Acknowledgements**:
 
-- Chain Keys are only rotated after receiving a **Receiver Acknowledgement (`>>`)**.
+- Chain Keys are only rotated after receiving a **Receiver Acknowledgement (`>>`) or receiving a message**.
 - If the recipient is **offline**, only a **Server Acknowledgement (`>`)** is received and the **message is queued in Redis**.
 - When the recipient comes online and pulls queued messages, the **chain key is not rotated**, ensuring message decryption aligns.
 
@@ -615,6 +615,74 @@ In **Room Chats**, messages currently **only support Server Acknowledgement (`>`
 
 
 ## 13. 🔒Room Chats End-To-End Encryption
+
+### 13.1 Overview
+
+Room Chats in **maclincomms** are secured using **end-to-end encryption**, powered by the **AES-GCM algorithm** with a **256-bit symmetric key** and a **96-bit nonce**, utilizing the [`aes-gcm`](https://github.com/RustCrypto/AEADs/tree/master/aes-gcm) crate for authenticated encryption.
+
+Each time the maclincomms app is opened, a **new random Signature Key Pair** is generated. This key pair is an **ED25519 key pair** (32 bytes each for public and private key), created using the **Curve25519 elliptic curve** with the [`ed25519-dalek`](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek) crate. This key pair is **temporarily cached** for that session.
+
+When a user joins a room:
+- They send their **Sender Key** to all other members using **pairwise encrypted messaging**, and
+- Receive the Sender Keys of all room members individually using the same mechanism.
+
+This pairwise key exchange follows the protocol explained in [**DM Chats End-to-End Encryption**](https://github.com/hy-atharv/maclincomms#10-dm-chats-end-to-end-encryption).
+
+Your **Sender Key** is used to **encrypt and sign** your message.
+The **Sender Keys** of others are used to **verify their message signatures** and **decrypt** the ciphertext.
+
+**If any room member leaves the room**, the Sender Key exchange process is **repeated among all remaining members**, ensuring the encryption context remains valid and secure.
+
+---
+
+### 13.2 Sender Key
+
+When a person joins a room:
+
+- A **random 32-byte Chain Key** is generated, acting as the **Sending Chain Key**.
+- The **ED25519 Signature Key Pair** generated during app startup is used to sign outgoing messages.
+
+The **Sender Key Bytes** are composed by concatenating:
+```
+[32_BYTE_CHAIN_KEY][32_BYTE_PUB_SIGNATURE_KEY]
+```
+
+
+This combined Sender Key is encrypted and sent **individually to each room member** via **pairwise encrypted messaging**, as described in [**DM Chats End-to-End Encryption**](https://github.com/hy-atharv/maclincomms#10-dm-chats-end-to-end-encryption).
+
+Simultaneously, the user receives **encrypted Sender Keys from each member**, which are temporarily stored and used to decrypt and verify incoming messages.
+
+---
+
+### 13.3 Subsequent Messages
+
+Once Sender Keys are exchanged:
+
+- A **Message Key** is derived from the Chain Key.
+- The Chain Key is rotated after each message using:
+```
+Message Key = HKDF(Chain Key, 0x01)
+Chain Key (new) = HKDF(Chain Key, 0x02)
+```
+
+To send a message:
+1. The message is encrypted using the **derived Message Key**.
+2. The ciphertext is **digitally signed** using his **Private Signature Key**.
+3. The signed, encrypted message is sent to the server, which **fan-outs** the message to all connected room members.
+
+On the recipient side:
+1. The signature is verified using the **Public Signature Key** embedded in the sender's Sender Key recipient received before.
+2. The **Message Key** is derived from the **Chain Key** embedded in the sender's Sender Key, acting as the **Receiving Chain Key**.
+3. The message is decrypted, and the chain key is rotated.
+
+This process ensures:
+- **End-to-End Encryption**
+- **Sender Authentication**
+- **Forward Secrecy** via symmetric-key ratcheting
+- **Secure key distribution** using pairwise encrypted Sender Key transfers
+
+maclincomms also ensures **key synchronization**:
+- Chain Keys are rotated **only after Server Acknowledgement** or **after a message is successfully received**, preventing ratchet mismatches in group settings.
 
 ## 14. 🤫Whisper Mode
 
