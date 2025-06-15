@@ -838,8 +838,9 @@ These limitations are expected and will be addressed in future upgrades only if 
 
 ## 19. 🔄Project Maintenance & Future Updates
 
+Since I developed this project entirely on my own, there may be **bugs, issues, or loopholes** that I couldn’t catch during development. That's where the **Open Source Community** and potential **Collaborators** can play a crucial role in identifying problems and helping improve the project.
 
-
+As of now, I **cannot guarantee active maintenance or regular future updates**. However, if maclincomms receives **sufficient support, feedback, and collaboration**, I will definitely find time to maintain and evolve the project further.
 
 
 ## 🌐Open Source & Contribution
