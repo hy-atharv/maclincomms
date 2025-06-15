@@ -851,7 +851,18 @@ As of now, I **cannot guarantee active maintenance or regular future updates**. 
 
 ## 1. 🛠️Open Source, Free to explore & Build on
 
+I released this project as an **open-source** initiative to help evolve **terminal-based tools, applications, and chat platforms**.  
+It is **free to explore, reverse engineer, modify**, and **build on top of**—with the hope that it can grow into something even more powerful.
+
+All I ask is to give **appropriate credit** to the original project wherever it's used or extended.
+
 ## 2. 🤝Credit Honestly
+
+It took me a lot of **time, planning, experimentation, and effort** to develop this project all by myself.  
+So I kindly request you to **credit maclincomms and me honestly** if you choose to fork this project and release your own implementation.
+
+Although this project is **open-source** and **free to reverse engineer, modify, and build upon**, it is licensed under the **MIT License**.  
+This means that for **any commercial use**, the **original copyright and license notice must be included**.
 
 ## 3. 🏷️How to Contribute?
 
