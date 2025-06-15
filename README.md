@@ -686,6 +686,68 @@ maclincomms also ensures **key synchronization**:
 
 ## 14. 🤫Whisper Mode
 
+### 14.1 Overview
+
+**Whisper Mode** is the flagship innovation of **maclincomms**, offering a powerful, privacy-centric messaging feature within room chats.
+
+Imagine being in a room with a few people you aren’t that close with—maybe acquaintances or colleagues—where you want to say something personal or casual that you’d normally only share with your close friends in that room. You can’t speak freely without worrying about others overhearing.
+
+Now, imagine being in a collaborative room—say, a team of developers—where you want to share a database schema update only with the **Database Engineers**, without notifying everyone else. While direct messaging is an option, it becomes tedious and inefficient for a quick, one-time message.
+
+To solve this, **maclincomms Whisper Mode** introduces a flexible, selective messaging mechanism within rooms, empowering users with granular control over who can or cannot receive a particular message.
+
+With Whisper Mode:
+- Messages are sent **only to one or more intended recipients**.
+- **No one else in the room**, including the recipients, is made aware that Whisper Mode was used.
+- The sender retains **complete control** over the message’s visibility, ensuring privacy and precision.
+
+Whisper Mode supports two intuitive modes:
+- `Hide From` — hide the message from specific users.
+- `Share With` — share the message only with specific users.
+
+**Whisper Mode** makes in-room conversations more dynamic, secure, and context-aware—giving users the ability to communicate with precision and discretion, without leaving the room or creating separate channels.
+
+---
+
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/ccd2f9bd-4984-4d80-ab7a-46433ed48534" align="center">
+</p>
+<p align="center">Hide From</p>
+
+### 14.2 Hide From
+
+The **Hide From** mode enables users to exclude specific room members from seeing a message while sending it to everyone else.
+
+To send a Whisper message using the **Hide From** option, use the following command format:
+```
+whisper --hf [username1,username2] <Message>
+```
+
+- Replace `username1`, `username2`, etc., with the usernames of the people you wish to **hide the message from**.
+- The list can contain **one or more usernames**, separated by commas.
+- All other members in the room **except** those in the list will receive the message.
+
+---
+
+<p align="center">
+<img width=600 src="https://github.com/user-attachments/assets/355973c1-1db6-4001-90a7-9fec2369174a" align="center">
+</p>
+<p align="center">Share With</p>
+
+### 14.3 Share With
+
+The **Share With** mode enables users to send a message **only to specific room members**, while hiding it from everyone else.
+
+To send a Whisper message using the **Share With** option, use the following command format:
+```
+whisper --sw [username1,username2] <Message>
+```
+
+- Replace `username1`, `username2`, etc., with the usernames of the people you wish to **share the message with**.
+- The list can contain **one or more usernames**, separated by commas.
+- **Only** the specified members in the list will receive the message.
+
+
 ## 15. 🔔Realtime Notifications
 
 ## 16. 🔔Queued Notifications
