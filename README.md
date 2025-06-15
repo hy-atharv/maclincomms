@@ -623,7 +623,7 @@ Room Chats in **maclincomms** are secured using **end-to-end encryption**, power
 Each time the maclincomms app is opened, a **new random Signature Key Pair** is generated. This key pair is an **ED25519 key pair** (32 bytes each for public and private key), created using the **Curve25519 elliptic curve** with the [`ed25519-dalek`](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek) crate. This key pair is **temporarily cached** for that session.
 
 When a user joins a room:
-- They send their **Sender Key** to all other members using **pairwise encrypted messaging**, and
+- They send their [Sender Key](https://github.com/hy-atharv/maclincomms/blob/main/README.md#132-sender-key) to all other members using **pairwise encrypted messaging**, and
 - Receive the Sender Keys of all room members individually using the same mechanism.
 
 This pairwise key exchange follows the protocol explained in [**DM Chats End-to-End Encryption**](https://github.com/hy-atharv/maclincomms#10-dm-chats-end-to-end-encryption).
