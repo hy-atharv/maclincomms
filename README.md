@@ -758,8 +758,41 @@ whisper --sw [username1,username2] <Message>
 <table width="100%"><tr><td align="left"><img width="500" src="https://github.com/user-attachments/assets/7d0ef83e-67d6-464f-a74f-65c655559f27"></td><td align="right"><img width="500" src="https://github.com/user-attachments/assets/47c3f354-a6d7-4155-9a6d-86d06a4043a6"></td></tr></table>
 <p align="center">Realtime Notifications</p>
 
+**maclincomms**, like any modern chat platform, supports **realtime notifications** to ensure users are instantly updated on important events. These notifications include:
+
+- **Add Request Received**
+- **User Accepted Your Add Request**
+- **New DM Message** (when you're not currently in the chat with that user)
+
+maclincomms implements realtime notifications using the **Redis PUB/SUB model**.
+
+Upon startup, maclincomms connects to a **Server-Sent Events (SSE)** `event-stream`, which remains open throughout the session until the user exits the application. A separate asynchronous thread continuously reads from this stream to detect any **server-sent notifications**.
+
+On the backend, when the server receives an SSE connection from a client:
+- It spawns a dedicated task that subscribes to all **notification-related Redis channels** for that user using a **unique channel pattern**.
+- When a message is published to any of these channels, the task formats the message as a **Server-Sent Event** and pushes it into the client’s open stream.
+
+If no client task is actively subscribed when a notification is published (i.e., **subscriber count is zero**), the message is not lost. Instead, it is queued into a **Redis List**, acting as a **fallback notification queue**, ensuring the user receives the pending notifications when they reconnect.
+
+This architecture ensures that users receive real-time updates while also maintaining **delivery guarantees** when they’re offline.
 
 ## 16. 🔔Queued Notifications
+
+When a user exits the **maclincomms** app, they are no longer connected to the realtime **SSE (Server-Sent Events)** stream. As a result, any realtime notifications—such as add requests or incoming messages—would typically be **lost**, since these events are **fired once and forgotten**.
+
+To ensure no important information is missed, **maclincomms** implements **Queued Notifications** using **Redis Lists** that act as persistent notification queues.
+
+Here’s how it works:
+- When a notification is published to a user's **Redis notification channel**, the system checks the number of active subscribers.
+- If the **subscriber count is zero** (i.e., the user is offline), the message is **not discarded**.
+- Instead, it is **queued** by pushing the notification message into a **Redis List**, which serves as the user's personal notification queue.
+
+When the user comes back online and reopens **maclincomms**:
+- The app **retrieves all queued notifications** from the corresponding Redis List.
+- Once retrieved, the queue is **cleared**, ensuring that notifications are not reprocessed or shown multiple times.
+
+This mechanism guarantees **reliable delivery** of critical updates, even when the user is offline—bridging the gap between realtime and persistent notification handling.
+
 
 ## 17. 🚫Block/Unblock Users
 
